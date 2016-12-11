@@ -1,0 +1,138 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/handGesture.cpp
+handGesture.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/handGesture.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/handGesture.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/opencv.hpp
+-
+vector
+-
+string
+-
+main.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/main.hpp
+myImage.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/myImage.hpp
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/main.cpp
+opencv2/imgproc/imgproc.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc/types_c.h
+/home/ahmed/Desktop/handDetectionCV/Linux Version/opencv2/imgproc/types_c.h
+opencv2/highgui/highgui_c.h
+/home/ahmed/Desktop/handDetectionCV/Linux Version/opencv2/highgui/highgui_c.h
+opencv2/opencv.hpp
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+myImage.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/myImage.hpp
+roi.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/roi.hpp
+handGesture.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/handGesture.hpp
+vector
+-
+cmath
+-
+main.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/main.hpp
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/main.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/myImage.cpp
+myImage.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/myImage.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/myImage.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/opencv.hpp
+-
+vector
+-
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/roi.cpp
+myImage.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/myImage.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+roi.hpp
+/home/ahmed/Desktop/handDetectionCV/Linux Version/roi.hpp
+
+/home/ahmed/Desktop/handDetectionCV/Linux Version/roi.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/opencv.hpp
+-
+

@@ -1,0 +1,3 @@
+/home/ahmed/Desktop/handDetectionCV/Linux Version/build/CMakeFiles/edit_cache.dir
+/home/ahmed/Desktop/handDetectionCV/Linux Version/build/CMakeFiles/rebuild_cache.dir
+/home/ahmed/Desktop/handDetectionCV/Linux Version/build/CMakeFiles/FallDetection.dir
