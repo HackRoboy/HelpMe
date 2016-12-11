@@ -63,11 +63,11 @@ def handle_emergency_detection():
         mylocation = geolocator.reverse(str(lat) + ", " + str(lon))
         print(mylocation.address)
         # Find these values at https://twilio.com/user/account
-        account_sid = "ACbb72372655bc616a46a24373280de907"  # these are credentials are confidential
-        auth_token = "7d894b9be0250f232d5b2b274a2e0234"  # these are credentials are confidential
+        account_sid = "account_sid"  # these are credentials are confidential
+        auth_token = "auth_token"  # these are credentials are confidential
         client = TwilioRestClient(account_sid, auth_token)
 
-        client.messages.create(to="+4915773496762", from_="+4915735986687", body="Your friend/relative is in need of help"+mylocation.address)  # these are credentials are confidential
+        client.messages.create(to="+4900000000", from_="+4900000000", body="Your friend/relative is in need of help"+mylocation.address)  # these are credentials are confidential
 
     elif re.search(r'\b(yes|yeah|good|fine|ok)\b', transcript, re.I):
         print('Happy to hear you are doing well, no actions required')
@@ -99,8 +99,8 @@ def main_loop_server():
 
 
 def main():
-    #main_loop_server()
-    handle_emergency_detection()
+    main_loop_server()
+    # handle_emergency_detection()
 
 if __name__ == '__main__':
         main()
