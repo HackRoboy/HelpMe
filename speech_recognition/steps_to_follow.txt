@@ -1,0 +1,22 @@
+Step 1: login into roboy google account
+    $ gcloud beta auth application-default login
+
+    username: roboy.cloud@gmail.com
+    password: Roboy2016
+
+Step 2: set the variable and change path to service_account
+    $ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json
+
+Step 3: Install PortAudio if not already available
+    $ apt-get install portaudio19-dev python-all-dev
+
+Step 4: Install pip and virtualenv if you do not already have them.
+
+Step 5:
+    $ virtualenv env
+    $ source env/bin/activate
+
+Step 6:
+    $ pip install -r requirements.txt
+    $ pip install requests
+    $ pip install geopy
